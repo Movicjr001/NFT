@@ -19,10 +19,15 @@
      }
     </style>
 </head>
-<body class="bg-Blue950 flex flex-col items-center p-6 min-h-screen justify-center " >
+<body class="bg-Blue950 flex flex-col items-center p-6 min-h-screen justify-center">
     <div class="bg-Blue800 rounded-[15px] max-w-sm p-6">
-        <img class="rounded-[12px] relative" src="./images/image-equilibrium.jpg" alt="">
-        <img class="absolute top-[40%] left-[45%]  "  src="./images/icon-view.svg" alt="">
+        <div class="relative group">
+            <img class="rounded-[12px] w-full object-fit" src="./images/image-equilibrium.jpg" alt="">
+
+            <div class="absolute top-0 flex items-center justify-center opacity-0 group-hover:opacity-80 hover:bg-Cyan400/60 w-full h-full rounded-[12px]">
+                <img src="./images/icon-view.svg" alt="">
+            </div>
+        </div>
         <div class="flex flex-col gap-3">
         <h1 class="text-white font-outfit font-stretch-normal  hover:text-Cyan400">Equilibrium #3429</h1>
         <p class="text-Blue500 ">Our Equilibrium collection promotes
